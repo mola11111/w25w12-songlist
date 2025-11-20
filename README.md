@@ -1,16 +1,20 @@
-# React + Vite
+# Song List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React와 Vite를 사용하여 개발된 간단한 노래 목록 애플리케이션입니다.
 
-Currently, two official plugins are available:
+## 프로젝트 소개
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+이 프로젝트는 **금오공과대학교 웹프로그래밍 수업 과제**로 제작되었습니다.
+노래 목록을 조회하고 상세 정보를 확인할 수 있는 기능을 제공합니다.
 
-## React Compiler
+## 실행 방법
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. 의존성 설치:
+   ```bash
+   npm install
+   ```
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. 개발 서버 실행:
+   ```bash
+   npm run dev
+   ```
