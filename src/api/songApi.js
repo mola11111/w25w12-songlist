@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://localhost:8080/api/songs'
+  baseURL: 'http://localhost:8080/api/songs'
 });
 
 export const getSongList = async () => {
